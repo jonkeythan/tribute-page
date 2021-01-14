@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 body {
-    background-color: white;
+  background-color: white;
+  color: Black;
+  font-family: "Merriweather", serif;
+  margin: center;
 }
-h1 { 
-    color: black;
+.imgJC {
+  display: block;
+  margin: auto;
+  width: 300px;
 }
