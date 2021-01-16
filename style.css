@@ -1,16 +1,55 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  background-color: white;
-  color: Black;
-  font-family: "Merriweather", serif;
-  margin: center;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(167, 166, 166);
+  height: 150vh;
 }
+h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 3px 3px rgba(212, 64, 64, 0.329);
+}
+p {
+  border: 2px solid black;
+  box-shadow: 3px 3px rgba(212, 64, 64, 0.329);
+  border-radius: 10px;
+  width: 90%;
+  text-indent: 40px;
+  line-height: 30px;
+  padding: 15px;
+}
+h2 {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  margin-left: 3%;
+  width: 90%;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .imgJC {
-  display: block;
-  margin: auto;
-  width: 300px;
+  margin-top: 50px;
+  height: auto;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 3.5px 3.5px rgba(212, 64, 64, 0.329);
 }
-#Para {
-  font-family: "Merriweather", serif; 
-  
+
+@media (max-width: 600px) {
+  .imgJC {
+    width: 90%;
+  }
 }
